@@ -1,0 +1,199 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    text-align: center;
+}
+
+.boxa {
+    height: 150px;
+    width: 150px;
+    background-color: orangered;
+    margin: 80px;
+}
+
+.boxb {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(171, 131, 249);
+    margin: 80px;
+}
+
+.boxc {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(231, 243, 9);
+    margin: 80px;
+}
+
+
+.div1 {
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2 {
+    height: 100vh;
+    background-color: rgb(255, 149, 10);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.square,
+.square3 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(247, 216, 158);
+}
+
+.square3 {
+    float: right;
+}
+
+.square1,
+.square2 {
+    height: 300px;
+    width: 300px;
+}
+
+.square1 {
+    background-color: rgb(251, 84, 111);
+    float: right;
+}
+
+.square2 {
+    background-color: rgba(233, 41, 73, 0.317);
+}
+
+.box {
+    margin: 100px 0;
+    width: 120px;
+    height: 120px;
+    color: rgb(250, 14, 18);
+    font-size: 34px;
+    text-align: left;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 10px;
+
+}
+
+.content1,
+.content2,
+.content3 {
+    width: 98vw;
+    height: 100vh;
+}
+
+.content1 {
+    background-color: rgb(243, 62, 243);
+}
+
+.content2 {
+    background-color: yellowgreen;
+}
+
+.content3 {
+    background-color: rgb(19, 183, 238);
+}
+
+.sec{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.outer, .inner{
+        width: 100%;
+        height: 100%;
+        overflow-y: hidden;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+}
+.first{
+    .bg{
+        background-image: url(images/mountain1.jpeg);
+    }
+}
+.second{
+    .bg{
+        background-image: url(images/sonmarg.jpg);
+    }
+}
+.three{
+    .bg{
+        background-image: url(images/mountain2.jpg);
+    }
+}
+h2 * {
+    will-change: transform;
+    text-align: center;
+  }
+
+  .section,
+
+.section .grid-container {
+
+  position: relative;
+
+  overflow: visible
+
+}
+
+ 
+
+.section .image-container {
+
+  position: relative;
+
+  text-align: center;
+
+  margin: 0 auto
+
+}
+
+ 
+
+.section .layer-image {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 0;
+
+  width: 100%
+
+}
+
+ 
+
+body{
+
+    overflow-x: hidden;
+
+}
